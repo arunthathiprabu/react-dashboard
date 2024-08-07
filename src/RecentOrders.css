@@ -1,0 +1,38 @@
+.recent-orders-container {
+    max-height: 400px;
+    background-color: rgb(46 41 41);
+    padding: 20px;
+    overflow: hidden;
+}
+
+
+.table-heading {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+
+}
+
+.heading {
+    border-bottom: 1px solid #444;
+    text-align: left;
+}
+
+.order {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #444;
+
+    .img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+}
+
+.order-container {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}

@@ -1,0 +1,32 @@
+.feedback-container {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.review {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444;
+    padding: 10px 0;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviewer-name {
+    font-weight: bold;
+}
+
+.star-rating {
+    color: goldenrod;
+}
+
+.review-comment {
+    margin-top: 10px;
+}
